@@ -55,7 +55,7 @@ def crear_vehiculo(parent, vehiculos):
                          precio_venta_entry.get(), 
                          estado_entry.get())
         ventana_crear.destroy()
-        messagebox.showinfo("Éxito", "Vehículo creado con éxito")
+        messagebox.showinfo("Éxito", "El vehículo creado con éxito")
     
     ventana_crear = tk.Toplevel(parent)
     ventana_crear.title("Crear Vehículo")
